@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
+
 export class Tab1Page {
   //create variable to Angular recorganize 
   public nome_user:string = "Lidiane Mara"; 
