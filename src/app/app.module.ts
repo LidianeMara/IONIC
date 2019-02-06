@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -9,14 +10,15 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-/*  New Page  */
+/*  New Pages  */
 import { FeedPageModule } from './feed/feed.module'; 
+import { LoginPageModule } from './login/login.module';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   /*  Add New Modules here! */
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FeedPageModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FeedPageModule, LoginPageModule],
   providers: [
     StatusBar,
     SplashScreen,
