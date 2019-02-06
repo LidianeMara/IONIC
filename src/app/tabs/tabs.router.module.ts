@@ -36,6 +36,7 @@ const routes: Routes = [
       },
 
       {
+        /* Create new router here!     */
         path: 'feed',
         children: [
           {

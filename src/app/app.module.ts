@@ -8,11 +8,14 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FeedPageModule } from './feed/feed.module';
+
+/*  New Page  */
+import { FeedPageModule } from './feed/feed.module'; 
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
+  /*  Add New Modules here! */
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FeedPageModule],
   providers: [
     StatusBar,
