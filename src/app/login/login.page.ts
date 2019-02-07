@@ -12,6 +12,7 @@ export class LoginPage{
   private router: Router,
   ) {
 }
+/*  FUNCTION TO BUTTON PAGE  */
 gotoTabsPage(){
   this.router.navigateByUrl('tabs');
   } 

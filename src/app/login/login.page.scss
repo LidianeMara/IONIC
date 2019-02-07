@@ -9,10 +9,11 @@ ion-img {
     overflow: hidden;
 }
 .step-one {
-    background: var(--ion-color-primary);
-    color: var(--ion-color-primary-contrast);
-}
+    color: grayscale($color: #000000);
+    position: static;
+    bottom: 65%;
 
+}
 .step-two {
     background: var(--ion-color-success);
     color: var(--ion-color-success-contrast);
