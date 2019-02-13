@@ -9,7 +9,15 @@ import { Component } from '@angular/core';
 export class Tab1Page {
   //create variable to Angular recorganize 
   public nome_user:string = "Lidiane Mara"; 
-/* 
+  
+  /*  JSON FOR OBJECT    */ 
+  public objeto_login = {
+    name: " Lidiane Mara",
+    password: " senha123",
+   }
+
+
+  /* 
 nothing 
 // create function 
 public funcao (nome_user:string, senha:char): void {

@@ -10,6 +10,7 @@
           <!-- nome_user show the Angular interpolation -->
           <ion-card-title class="nome_user">Bem-Vindo(a), {{nome_user}}. </ion-card-title>
           <!-- create a class to change css style-->
+          
         </ion-card-header>
         <ion-card-content>
           <p>
@@ -17,12 +18,25 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer metus nulla,
             ornare sed egestas vel, dapibus vel tellus. Nulla pellentesque.
           </p>
-        </ion-card-content>
+       </ion-card-content>
       </ion-card>
     </ion-slide>
 
     <ion-slide>
-      <h1>Slide 2</h1>
+      <ion-card class="welcome-card">
+        <ion-img src="/assets/img4.svg"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>MobStok</ion-card-subtitle>
+          <!-- nome_user show the Angular interpolation -->
+          <!-- create a class to change css style-->
+          
+        </ion-card-header>
+        <ion-card-content>
+          <p class="login_name">Nome:  {{objeto_login.name}} </p>
+          <p class="login_password">Senha:  {{objeto_login.password}} </p>
+
+        </ion-card-content>
+      </ion-card>
     </ion-slide>
 
     <ion-slide>
