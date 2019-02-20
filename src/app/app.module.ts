@@ -7,6 +7,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import {HttpModule} from '@angular/http';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -18,7 +20,8 @@ import { LoginPageModule } from './login/login.module';
   declarations: [AppComponent],
   entryComponents: [],
   /*  Add New Modules here! */
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FeedPageModule, LoginPageModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FeedPageModule, LoginPageModule, 
+    HttpModule],
   providers: [
     StatusBar,
     SplashScreen,
